@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Local env
+.venv/
+.env
+
+# Temp/runtime
+tmp/
+
+# Generated artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Generated data
+data/raw/demo_sources/*
+!data/raw/.gitkeep
+data/raw/sample_asag.csv
+data/processed/*
+!data/processed/.gitkeep
