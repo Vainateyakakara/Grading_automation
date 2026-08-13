@@ -1,0 +1,11 @@
+random_state: 42
+test_size: 0.2
+val_size: 0.1
+max_tfidf_features: 10000
+ridge_alpha: 1.0
+use_sbert: false
+sbert_model_name: all-mpnet-base-v2
+similarity_contrast_power: 1.8
+synthetic_extremes: 50
+min_similarity_weight: 0.6
+weight_grid_steps: 21
